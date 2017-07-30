@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Striped-Bold';
+	src: url('../fonts/Striped-Bold.woff2') format('woff2'),
+		url('../fonts/Striped-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sharpen-Bold';
+	src: url('../fonts/Sharpen-Bold.woff2') format('woff2'),
+		url('../fonts/Sharpen-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Subtract-Bold';
+	src: url('../fonts/Subtract-Bold.woff2') format('woff2'),
+		url('../fonts/Subtract-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.subtract {
+	font-family: Subtract-Bold, serif;
+}
+
+.sharpen {
+	font-family: Sharpen-Bold, serif;
+}
+
+.striped {
+	font-family: Striped-Bold, serif;
+}

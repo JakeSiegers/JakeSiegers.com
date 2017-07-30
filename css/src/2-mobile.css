@@ -1,0 +1,129 @@
+@media (max-width: 1280px) {
+	.title div,.title span{
+		font-size:80px;
+		width:80px;
+	}
+
+	.content{
+		width:90%;
+	}
+
+	.menu{
+		width:900px;
+	}
+
+}
+@media (max-width: 1000px) {
+	.title div,.title span{
+		font-size:60px;
+		width:60px;
+	}
+
+	.zoomBox {
+		width: 96%;
+	}
+
+	.menu{
+		width:700px;
+		font-size:18px;
+	}
+
+}
+@media (max-width: 770px) {
+	.title div,.title span{
+		font-size:70px;
+		width:70px;
+	}
+
+	#spacer{
+		display:block;
+		font-size:0;
+		height:10px;
+	}
+
+	.menu{
+		width:450px;
+		font-size:18px;
+		text-align: center;
+	}
+
+	.rightText{
+		display:block;
+		float:none;
+		text-align: center;
+	}
+
+}
+@media (max-width: 576px) {
+	.title div,.title span{
+		font-size:50px;
+		width:50px;
+	}
+
+	#spacer{
+		display:block;
+		font-size:0;
+		height:10px;
+	}
+
+	.menu{
+		width:320px;
+		font-size:18px;
+		text-align: center;
+	}
+
+	.menu a{
+		display:block;
+		font-size:20px;
+		margin-top:5px;
+	}
+
+	.rightText{
+		display:block;
+		float:none;
+		text-align: center;
+	}
+
+	.zoomBoxLinks a{
+		display: block;
+	}
+}
+
+@media (max-width: 352px) {
+	.title div,.title span{
+		font-size:40px;
+		width:40px;
+	}
+
+	#spacer{
+		display:block;
+		font-size:0;
+		height:10px;
+	}
+
+	.menu{
+		width:260px;
+		font-size:18px;
+		text-align: center;
+	}
+
+	.menu a{
+		display:block;
+		font-size:20px;
+		margin-top:5px;
+	}
+
+	.rightText{
+		display:block;
+		float:none;
+		text-align: center;
+	}
+
+	.zoomBoxText{
+		font-size:30px;
+	}
+
+	.zoomBoxLinks a{
+		display: block;
+	}
+}

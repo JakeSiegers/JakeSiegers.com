@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jake Siegers</title>
+        <meta name="description" content="&quot;Normally, you'd find a desciption here. This, however, is an exception.&quot;">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+		<link rel="manifest" href="img/favicons/manifest.json">
+		<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#3f51b5">
+		<meta name="theme-color" content="#3f51b5">
+
+		<link rel="stylesheet" href="css/style.min.css">
+        <script async src="js/js.min.js"></script>
+    </head>
+    <body>
+        <canvas class="visualizer" id="visualizer" width="32" height="18" ></canvas>
+        <div class="titleWrap" id="titleWrap">
+            <div class="title noselect" id="title">
+                <!-- Write some simple javascript to flicker this text -->
+	            <div class="sharpen">J</div>
+	            <div class="subtract">A</div>
+	            <div class="sharpen">K</div>
+	            <div class="subtract">E</div>
+	            <span id="spacer">&nbsp;</span>
+	            <div class="striped">S</div>
+	            <div class="subtract">I</div>
+	            <div class="sharpen">E</div>
+	            <div class="subtract">G</div>
+	            <div class="striped">E</div>
+	            <div class="subtract">R</div>
+	            <div class="subtract">S</div>
+            </div>
+	        <div class="menu" id="menu">
+		        <span class="rightText">
+		            Web Application Designer & Programmer
+		        </span>
+		        <a id="emailLink">[ Email Me ]</a>
+		        <a id="projectLink">[ Projects ]</a>
+		        <a href="https://github.com/JakeSiegers" target="_blank" id="gitHubLink">[ GitHub ]</a>
+	        </div>
+	        <div class="content" id="content">
+
+	        </div>
+			<div class="content contentPurgatory">
+				<div id="emailContent" class="contentFrame">
+					<form id="contactForm" class="contactForm">
+						<input type="text" class="formField" placeholder="Name" name="name">
+						<input type="text" class="formField" placeholder="Email" name="email">
+						<textarea class="formField" placeholder="Message" name="message" rows="10"></textarea>
+						<button onclick="sendMessage(this); return false;" class="button">Send Email</button>
+					</form>
+				</div>
+				<div id="portfolioContent" class="contentFrame">
+					<div class="zoomBox">
+						<div class="zoomBoxImage" style="background-image:url(img/icons/puzzle.jpg);"></div>
+						<div class="zoomBoxText">
+							<span class="noselect">Block Galaxy</span>
+							<div class="zoomBoxLinks"><a onclick="showScreenshots(event,'puzzle');">[ Screenshots ]</a> <a href="https://jakesiegers.github.io/PuzzleCylinder/" target="_blank">[ Play ]</a> <a href="https://github.com/JakeSiegers/PuzzleCylinder" target="_blank">[ Source ]</a></div>
+						</div>
+					</div><div class="zoomBox">
+						<div class="zoomBoxImage" style="background-image:url(img/icons/mg.jpg);"></div>
+						<div class="zoomBoxText">
+							<span class="noselect">McleodGaming</span>
+							<div class="zoomBoxLinks"><a onclick="showScreenshots(event,'mg');">[ Screenshots ]</a> <a href="https://mcleodgaming.com/" target="_blank" >[ Website ]</a></div>
+						</div>
+					</div><div class="zoomBox">
+						<div class="zoomBoxImage" style="background-image:url(img/icons/mgvis.jpg);"></div>
+						<div class="zoomBoxText">
+							<span class="noselect">MG Visualizer</span>
+							<div class="zoomBoxLinks"><a onclick="showScreenshots(event,'mgvis');">[ Screenshots ]</a></div>
+						</div>
+					</div><div class="zoomBox">
+						<div class="zoomBoxImage" style="background-image:url(img/icons/alex.jpg);"></div>
+						<div class="zoomBoxText">
+							<span class="noselect">Alexandra Conley</span>
+							<div class="zoomBoxLinks"><a onclick="showScreenshots(event,'alex');">[ Screenshots ]</a> <a href="http://alexandraconley.com" target="_blank">[ Website ]</a></div>
+						</div>
+					</div><div class="zoomBox">
+						<div class="zoomBoxImage" style="background-image:url(img/icons/bbqk.jpg);"></div>
+						<div class="zoomBoxText">
+							<span class="noselect">BBQK Improv</span>
+							<div class="zoomBoxLinks"><a onclick="showScreenshots(event,'bbqk');">[ Screenshots ]</a> <a href="http://bbqkittenimprov.com/" target="_blank">[ Visit Website ]</a> <a href="https://github.com/JakeSiegers/BBQK-Website" target="_blank">[ Source ]</a></div>
+						</div>
+					</div>
+				</div>
+				<div id="screenshotContent" class="contentFrame">
+				</div>
+			</div>
+        </div>
+    </body>
+</html>
