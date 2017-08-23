@@ -1,2 +1,4 @@
 css/compile/merged.css
 js/compile/merged.js
+node_modules
+package-lock.json

@@ -1,0 +1,11 @@
+{
+  "name": "Jakesiegers2017",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-csso": "^2.2.0"
+  },
+  "dependencies": {}
+}

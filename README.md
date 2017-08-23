@@ -4,7 +4,5 @@
 
 ## Dev Install Notes
 ### Set up CSS Compressor
-* npm install -g csso-cli
-* npm install -g shx
-* npm install -g jsmin
-* Set up file watcher in phpstorm to run css/compile/compile-css.bat (if you want to, or just run it)
+* npm install
+* Set up file watcher in phpstorm to run grunt
