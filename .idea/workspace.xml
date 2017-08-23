@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dc54a91-074d-4d1f-81ff-6b56d5ee3f7a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/compile/compile-css.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/compile/compile-js.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/js.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gruntfile.js" afterPath="$PROJECT_DIR$/gruntfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualizer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="visualizer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/src/visualizer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -58,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gruntfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gruntfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="75">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -135,11 +127,11 @@
         <option value="$PROJECT_DIR$/css/src/0-fonts.css" />
         <option value="$PROJECT_DIR$/js/src/functions.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/gruntfile.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/js/src/visualizer.js" />
+        <option value="$PROJECT_DIR$/gruntfile.js" />
       </list>
     </option>
   </component>
@@ -318,12 +310,20 @@
       <workItem from="1502063626223" duration="1027000" />
       <workItem from="1503353610036" duration="22000" />
       <workItem from="1503465967072" duration="958000" />
-      <workItem from="1503466945177" duration="2901000" />
+      <workItem from="1503466945177" duration="3182000" />
     </task>
+    <task id="LOCAL-00001" summary="Switched to grunt for automated builds - much nicer than windows only batch files.&#10;Should work on any os - i'm working from my mac today.">
+      <created>1503470268633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503470268633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88248000" />
+    <option name="totallyTimeSpent" value="88529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -333,7 +333,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704404" sideWeight="0.50994575" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704404" sideWeight="0.49005425" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.49367088" order="9" side_tool="false" content_ui="tabs" />
@@ -370,13 +370,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="C:\Users\Jake\Desktop\Dropbox\Jakesiegers2017\JakeSiegers.com" />
     </ignored-roots>
+    <MESSAGE value="Switched to grunt for automated builds - much nicer than windows only batch files.&#10;Should work on any os - i'm working from my mac today." />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched to grunt for automated builds - much nicer than windows only batch files.&#10;Should work on any os - i'm working from my mac today." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -495,14 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -566,6 +572,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="65" />
           <folding />
         </state>
       </provider>

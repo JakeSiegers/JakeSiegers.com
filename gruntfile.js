@@ -1,10 +1,9 @@
 module.exports = function(grunt) {
 
-    // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
-            compressJs: {
+            compressJs: { //why do I need to name this subtask?!?
                 src : 'js/src/*.js',
                 dest : 'js/js.min.js'
             }
@@ -17,10 +16,8 @@ module.exports = function(grunt) {
         }
     });
 
-    // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-csso');
 
-    // Default task(s).
     grunt.registerTask('default', ['uglify','csso']);
 };
