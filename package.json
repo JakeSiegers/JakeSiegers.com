@@ -1,6 +1,8 @@
 {
   "name": "Jakesiegers2017",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/JakeSiegers/JakeSiegers.com",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
