@@ -122,50 +122,6 @@ a:hover{
 	opacity: 1;
 }
 
-.contactForm{
-	padding:20px;
-	max-width:600px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.formField{
-	display: block;
-	width: 100%;
-	margin-bottom: 20px;
-	font-size: 20px;
-	background: rgba(0,0,0,0.3);
-	border: solid white 2px;
-	padding: 5px;
-	font-weight: bold;
-	color: white;
-	box-sizing:border-box;
-}
-
-.formError{
-	border-color:#d53a33;
-}
-
-.button{
-	display: block;
-	width: 100%;
-	font-size: 20px;
-	background: rgba(255,255,255,0.3);
-	border: solid black 2px;
-	padding: 10px;
-	font-weight: bold;
-	color: black;
-	box-sizing: border-box;
-}
-
-.button:hover{
-	background: rgba(255,255,255,0.6);
-}
-
-.button:active{
-	background: rgba(255,255,255,0.9);
-}
-
 .zoomBox{
 	height:300px;
 	width:46%;
