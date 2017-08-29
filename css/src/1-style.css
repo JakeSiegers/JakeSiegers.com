@@ -35,6 +35,7 @@ a:hover{
 	font-weight: bold;
 	/*transition: opacity 0.5s ease;*/
 	opacity: 0;
+	margin-top: -20px;
 }
 
 .menu a,.menu a:visited{
@@ -134,10 +135,12 @@ a:hover{
 }
 
 .zoomBox:hover > .zoomBoxImage{
-	opacity: 0.3;
-	-ms-transform: scale(1.2, 1.2); /* IE 9 */
-	-webkit-transform: scale(1.2, 1.2); /* Safari */
+	opacity: 0;
+	/*-ms-transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
 	transform: scale(1.2, 1.2);
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);*/
 }
 
 .zoomBox:hover > .zoomBoxText{
@@ -145,14 +148,14 @@ a:hover{
 }
 
 .zoomBoxTouch > .zoomBoxImage{
-	opacity: 0.5;
+	opacity: 0;
 }
 
 .zoomBoxTouch > .zoomBoxText{
 	opacity: 1;
 }
 
-.zoomBoxImage{
+.zoomBoxImage, .zoomBoxImageBlur{
 	height:100%;
 	width:100%;
 	position: absolute;
@@ -163,6 +166,10 @@ a:hover{
 	background-repeat: no-repeat;
 	z-index: 10;
 	transition: all 0.5s ease;
+}
+
+.zoomBoxImageBlur{
+	z-index: 9;
 }
 
 .zoomBoxText{

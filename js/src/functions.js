@@ -102,7 +102,7 @@ function showScreenshots(event,screenshotSet){
 	var html = '<a class="projectBack" onclick="changeContent(\'portfolio\',\'green\')" >[ Back to Projects ]</a>';
 	//html += '<div class="masonry">';
 	for(var i=1;i<=screenshots[screenshotSet];i++){
-		html +='<img src="img/screenshots/'+screenshotSet+i+'.jpg" class="screenshot"/>';
+		html +='<a href="img/screenshots/'+screenshotSet+i+'.jpg" target="_blank"><img src="img/screenshots/'+screenshotSet+i+'.jpg" class="screenshot"/></a>';
 		var downloadingImage = new Image();
 		screenshotCount++;
 		downloadingImage.onload = function(){
