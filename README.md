@@ -5,4 +5,5 @@
 ## Dev Install Notes
 ### Set up CSS Compressor
 * npm install
-* Set up file watcher in phpstorm to run grunt
+* confirm phpstorm/webstorm's fileWatcher for grunt is set up correctly (It's a bit fussy sometimes)
+* css/js is compressed & merged auto-magically on save
