@@ -75,7 +75,6 @@
 	}
 
 	.menu a{
-		display:block;
 		font-size:20px;
 		margin-top:5px;
 	}
@@ -88,10 +87,6 @@
 
 	.zoomBoxText{
 		font-size:40px;
-	}
-
-	.zoomBoxLinks a{
-		display: block;
 	}
 }
 
@@ -114,7 +109,6 @@
 	}
 
 	.menu a{
-		display:block;
 		font-size:20px;
 		margin-top:5px;
 	}
@@ -127,9 +121,5 @@
 
 	.zoomBoxText{
 		font-size:30px;
-	}
-
-	.zoomBoxLinks a{
-		display: block;
 	}
 }

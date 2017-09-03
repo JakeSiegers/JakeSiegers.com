@@ -53,11 +53,11 @@ function initMenu(){
 	document.body.addEventListener('touchstart', function(e){
 		if(!touchMode) {
 			var boxes = document.getElementsByClassName('zoomBox');
-			for(var i in boxes){
+			for(var i = 0;i<boxes.length;i++){
 				addCls(boxes[i],'zoomBoxTouch');
 			}
+			touchMode = true;
 		}
-		touchMode = true;
 	}, false);
 
 	/*
@@ -120,6 +120,7 @@ function showScreenshots(event,screenshotSet){
 
 var contentType = null;
 var contentTimeout = null;
+var inTransition = false;
 
 function changeContent(type,color){
 	if(screenshotCount > 0){
@@ -129,33 +130,47 @@ function changeContent(type,color){
 	if(sendingEmail){
 		return;
 	}
-	var content = document.getElementById('content');
+	//Don't change when currently in a transition
+	if(inTransition){
+		return;
+	}
+	//var content = document.getElementById('content');
 	//console.log(contentType,content.offsetHeight);
 	if(contentType === type){
 		vis.setColorPalette('blue');
 		closeContent();
 	}else if(contentType !== null){
-		closeContent();
+		closeContent(true);
         if(contentTimeout!==null){
         	clearTimeout(contentTimeout);
 		}
         contentTimeout = setTimeout(function(){
-			showContent(type,color)
+			showContent(type,color);
         },500);
 	} else{
 		showContent(type,color)
 	}
 }
 
-function closeContent(){
+function closeContent(noCenter){
+	inTransition = true;
+	setTimeout(function(){
+		inTransition = false;
+	},500);
 	var content = document.getElementById('content');
-	centerContent(-content.offsetHeight);
+	if(!noCenter) {
+		centerContent(-content.offsetHeight);
+	}
 	removeCls(content,'showContent');
 	content.style.height = '0px';
 	contentType = null;
 }
 
 function showContent(type,color){
+	inTransition = true;
+	setTimeout(function(){
+		inTransition = false;
+	},500);
 	var content = document.getElementById('content');
 	vis.setColorPalette(color);
 	var newContent = document.getElementById(type + 'Content');

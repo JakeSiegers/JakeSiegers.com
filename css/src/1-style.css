@@ -39,6 +39,7 @@ a:hover{
 }
 
 .menu a,.menu a:visited{
+	display:inline-block;
 	text-decoration: none;
 	color: white;
 	transition: opacity 0.5s ease;
@@ -188,6 +189,7 @@ a:hover{
 }
 
 .zoomBoxLinks a, .zoomBoxLinks a:visited{
+	display:inline-block;
 	color:white;
 	text-decoration: none;
 	transition: opacity 0.5s ease;

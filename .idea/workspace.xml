@@ -10,9 +10,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/src/1-style.css" afterPath="$PROJECT_DIR$/css/src/1-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/src/2-mobile.css" afterPath="$PROJECT_DIR$/css/src/2-mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.min.js" afterPath="$PROJECT_DIR$/js/js.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/src/functions.js" afterPath="$PROJECT_DIR$/js/src/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/src/visualizer.js" afterPath="$PROJECT_DIR$/js/src/visualizer.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +61,8 @@
       <file leaf-file-name="1-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/src/1-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="629">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="66" column="113" lean-forward="true" selection-start-line="66" selection-start-column="113" selection-end-line="66" selection-end-column="113" />
+            <state relative-caret-position="1124">
+              <caret line="74" column="39" lean-forward="false" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -92,18 +92,18 @@
       <file leaf-file-name="10-forms.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/src/10-forms.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="425">
               <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualizer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="visualizer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/src/visualizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="102">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -112,20 +112,20 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/src/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+            <state relative-caret-position="871">
+              <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
               <folding>
-                <marker date="1503983524817" expanded="true" signature="2102:2116" ph="..." />
+                <marker date="1504405488646" expanded="true" signature="2117:2131" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-mobile.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/src/2-mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="237">
+              <caret line="89" column="5" lean-forward="false" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -171,6 +171,9 @@
       <find>addCls</find>
       <find>titleWrap</find>
       <find>zoomBoxImage</find>
+      <find>touchm</find>
+      <find>menu</find>
+      <find>centerContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,7 +199,6 @@
         <option value="$PROJECT_DIR$/js/src/onload.js" />
         <option value="$PROJECT_DIR$/css/src/0-fonts.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/js/src/visualizer.js" />
         <option value="$PROJECT_DIR$/gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/css/src/1.1-forms.css" />
@@ -204,8 +206,9 @@
         <option value="$PROJECT_DIR$/css/src/10-forms.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/src/functions.js" />
-        <option value="$PROJECT_DIR$/css/src/1-style.css" />
         <option value="$PROJECT_DIR$/css/src/2-mobile.css" />
+        <option value="$PROJECT_DIR$/css/src/1-style.css" />
+        <option value="$PROJECT_DIR$/js/src/visualizer.js" />
       </list>
     </option>
   </component>
@@ -235,10 +238,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1703" />
-    <option name="y" value="340" />
-    <option name="width" value="2560" />
-    <option name="height" value="1409" />
+    <option name="x" value="-1928" />
+    <option name="y" value="345" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -275,7 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,14 +312,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/grunt.cmd" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="add_unversioned_files" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -395,7 +398,9 @@
       <workItem from="1503466945177" duration="3249000" />
       <workItem from="1503803250104" duration="1770000" />
       <workItem from="1503805136462" duration="1018000" />
-      <workItem from="1503981341868" duration="2465000" />
+      <workItem from="1503981341868" duration="2596000" />
+      <workItem from="1504058339892" duration="251000" />
+      <workItem from="1504400060063" duration="3887000" />
     </task>
     <task id="LOCAL-00001" summary="Switched to grunt for automated builds - much nicer than windows only batch files.&#10;Should work on any os - i'm working from my mac today.">
       <created>1503470268633</created>
@@ -432,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503982312738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hover box and mobile improvements.&#10;Still not sure if I like them, but they're better now.">
+      <created>1503984158393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503984158393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93849000" />
+    <option name="totallyTimeSpent" value="98118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="345" width="1936" height="1056" extended-state="6" />
@@ -507,7 +519,8 @@
     <MESSAGE value="Updated package.json" />
     <MESSAGE value="Adjusted file watcher&#10;Testing form styles" />
     <MESSAGE value="Style Adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style Adjustments" />
+    <MESSAGE value="Hover box and mobile improvements.&#10;Still not sure if I like them, but they're better now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Hover box and mobile improvements.&#10;Still not sure if I like them, but they're better now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -597,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/src/10-forms.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="425">
           <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
@@ -645,6 +657,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/src/onload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/src/0-fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -653,10 +673,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/src/2-mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="89" column="5" lean-forward="false" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/src/1-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/src/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+          <folding>
+            <marker date="1504405488646" expanded="true" signature="2117:2131" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="66" column="113" lean-forward="true" selection-start-line="66" selection-start-column="113" selection-end-line="66" selection-end-column="113" />
+        <state relative-caret-position="1124">
+          <caret line="74" column="39" lean-forward="false" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -674,42 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/src/visualizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/src/onload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/src/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-          <folding>
-            <marker date="1503983524817" expanded="true" signature="2102:2116" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/src/1-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/src/2-mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>

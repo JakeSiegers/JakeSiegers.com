@@ -3,6 +3,9 @@ function Visualizer(){
 	this.visPos = {};
 	this.currentVisuals = [];
 
+	this.lastTimeReset = Date.now();
+	this.animationTime = 16000;
+
 	//Classic Colors
 	//'rgba(29,144,153,1)',
 	//'rgba(213,58,51,1)',
@@ -139,12 +142,20 @@ Visualizer.prototype.draw = function(){
 	//canvasCtx.fillStyle = 'rgba(51,51,51,1)';
 	this.canvasCtx.fillRect(0,0,this.canvas.width,this.canvas.height);
 
-
-	this.trigCount+=0.005;
-	if(this.trigCount > Math.PI*2){
-		this.trigCount = 0;
+	var animationTime = Date.now() - this.lastTimeReset;
+	var percentComplete = animationTime/this.animationTime;
+	if(percentComplete>=1){
+		percentComplete = 1;
+		this.lastTimeReset = Date.now();
 		this.changeVisual();
 	}
+	this.trigCount = percentComplete*(Math.PI*2);
+
+	//this.trigCount+=0.005;
+	//if(this.trigCount > Math.PI*2){
+	//	this.trigCount = 0;
+	//	this.changeVisual();
+	//}
 
 	//run current visuals
 	for(var i in this.currentVisuals){
