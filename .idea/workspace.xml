@@ -6,13 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dc54a91-074d-4d1f-81ff-6b56d5ee3f7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/bbqk-blur.jpg" afterPath="$PROJECT_DIR$/img/icons/bbqk-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/src/1-style.css" afterPath="$PROJECT_DIR$/css/src/1-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.min.js" afterPath="$PROJECT_DIR$/js/js.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/src/functions.js" afterPath="$PROJECT_DIR$/js/src/functions.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,14 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/src/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="224" column="25" lean-forward="true" selection-start-line="224" selection-start-column="25" selection-end-line="224" selection-end-column="25" />
+            <state relative-caret-position="407">
+              <caret line="227" column="0" lean-forward="true" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
               <folding>
                 <marker date="1504548517505" expanded="true" signature="2128:2142" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,16 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1513">
               <caret line="89" column="5" lean-forward="false" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="onload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/src/onload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -213,6 +208,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/src/1-style.css" />
         <option value="$PROJECT_DIR$/js/src/functions.js" />
+        <option value="$PROJECT_DIR$/mail.php" />
       </list>
     </option>
   </component>
@@ -266,7 +262,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -407,7 +405,7 @@
       <workItem from="1504400060063" duration="5144000" />
       <workItem from="1504469549915" duration="1790000" />
       <workItem from="1504496616364" duration="5524000" />
-      <workItem from="1504546904711" duration="1545000" />
+      <workItem from="1504546904711" duration="2197000" />
     </task>
     <task id="LOCAL-00001" summary="Switched to grunt for automated builds - much nicer than windows only batch files.&#10;Should work on any os - i'm working from my mac today.">
       <created>1503470268633</created>
@@ -458,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504406819564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final touches to website before launch&#10;Added older node game">
+      <created>1504548834170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504548834170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108234000" />
+    <option name="totallyTimeSpent" value="108886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="345" width="1936" height="1056" extended-state="6" />
@@ -516,14 +521,14 @@
     <MESSAGE value="Style Adjustments" />
     <MESSAGE value="Hover box and mobile improvements.&#10;Still not sure if I like them, but they're better now." />
     <MESSAGE value="Fixed Touch console error&#10;Animations are now time based, instead of frame based (They should be the same speed at any framerate)&#10;Improved screen change animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Touch console error&#10;Animations are now time based, instead of frame based (They should be the same speed at any framerate)&#10;Improved screen change animations" />
+    <MESSAGE value="Final touches to website before launch&#10;Added older node game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final touches to website before launch&#10;Added older node game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/compile/compile-js.bat" />
     <entry file="file://$PROJECT_DIR$/js/src/onload.js" />
     <entry file="file://$PROJECT_DIR$/css/src/2-mobile.css" />
     <entry file="file://$PROJECT_DIR$/css/src/0-fonts.css" />
@@ -722,11 +727,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/src/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="224" column="25" lean-forward="true" selection-start-line="224" selection-start-column="25" selection-end-line="224" selection-end-column="25" />
+        <state relative-caret-position="407">
+          <caret line="227" column="0" lean-forward="true" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
           <folding>
             <marker date="1504548517505" expanded="true" signature="2128:2142" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
