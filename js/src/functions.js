@@ -85,7 +85,8 @@ var screenshots = {
 	'mgvis':3,
 	'alex':4,
 	'bbqk':3,
-	'puzzle':3
+	'puzzle':3,
+	'node':3
 };
 
 var screenshotCount = 0;
@@ -100,6 +101,7 @@ function showScreenshots(event,screenshotSet){
 	//screenshotCount = screenshots[screenshotSet].length;
 	var screenshotContent = document.getElementById('screenshotContent');
 	var html = '<a class="projectBack" onclick="changeContent(\'portfolio\',\'green\')" >[ Back to Projects ]</a>';
+	html += '<div class="contentSubTitle">Click or tap any screenshot to view full size</div>';
 	//html += '<div class="masonry">';
 	for(var i=1;i<=screenshots[screenshotSet];i++){
 		html +='<a href="img/screenshots/'+screenshotSet+i+'.jpg" target="_blank"><img src="img/screenshots/'+screenshotSet+i+'.jpg" class="screenshot"/></a>';
@@ -220,7 +222,7 @@ function sendMessage(btn){
 	}
 
 	var http = new XMLHttpRequest();
-	var url = "https://beta.jakesiegers.com/mail.php";
+	var url = "mail.php";
 	var params = postData.join("&");
 	http.open("POST", url, true);
 

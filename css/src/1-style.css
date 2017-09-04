@@ -113,7 +113,7 @@ a:hover{
 	margin-left: auto;
 	margin-top:20px;
 	overflow:hidden;
-	font-size:0px;
+	font-size:0;
 }
 
 .contentFrame{
@@ -122,6 +122,19 @@ a:hover{
 
 .showContent{
 	opacity: 1;
+}
+
+.contentTitle{
+	display:block;
+	font-size:30px;
+	text-align:center;
+	color:white;
+}
+.contentSubTitle{
+	display:block;
+	font-size:18px;
+	text-align:center;
+	color:white;
 }
 
 .zoomBox{
@@ -229,5 +242,3 @@ a:hover{
 	color:white;
 	font-weight: 700;
 }
-
-
