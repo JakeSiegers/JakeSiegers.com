@@ -2,7 +2,6 @@
 $m = new Mail();
 class Mail{
 	function __construct(){
-
 		if(!file_exists('email.php')){
 			$this->json(array(
 				'success' => false,
@@ -46,6 +45,18 @@ class Mail{
 			return false;
 		}
 		$mailSuccess = mail($email,'JakeSiegers.com Message',"From:{$f['name']} ({$f['email']})\r\nMessage:\r\n{$f['message']}","From: Jake's Mail Bot <mailBot@jakesiegers.com>\r\nReply-To: {$f['name']}<{$f['email']}>");
+
+		$log = fopen("log.csv","a");
+		fputcsv($log,array(
+			date('Y-m-d H:i:s'),
+			$f['name'],
+			$f['email'],
+			$f['message'],
+			$_SERVER['REMOTE_ADDR'],
+			$_SERVER['HTTP_X_FORWARDED_FOR']
+		));
+		fclose($log);
+
 		if(!$mailSuccess){
 			$this->json(array(
 				'success' => false,
