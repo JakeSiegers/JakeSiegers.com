@@ -42,7 +42,7 @@ function showTitle(){
 function initMenu(){
 	document.getElementById('emailLink').onclick = function(event){
 		event.preventDefault();
-		changeContent('email','red');
+		changeContent('email','purple');
 	};
 
 	document.getElementById('projectLink').onclick = function(event){
@@ -139,7 +139,7 @@ function changeContent(type,color){
 	//var content = document.getElementById('content');
 	//console.log(contentType,content.offsetHeight);
 	if(contentType === type){
-		vis.setColorPalette('blue');
+		vis.setColorPalette('orange');
 		closeContent();
 	}else if(contentType !== null){
 		closeContent(true);

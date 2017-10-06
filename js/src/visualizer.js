@@ -36,10 +36,23 @@ function Visualizer(){
 			C700: '#00796B',
 			C500: '#009688',
 			A700: '#00BFA5'
+		},
+		orange:{
+			C900: '#BF360C',
+			C700: '#E64A19',
+			C500: '#FF5722',
+			A700: '#DD2C00'
+		},
+		purple:{
+			C900: '#4A148C',
+			C700: '#7B1FA2',
+			C500: '#9C27B0',
+			A700: '#AA00FF'
+
 		}
 	};
 
-	this.currentColorPalette = this.visColors.blue;
+	this.currentColorPalette = this.visColors.orange;
 
 	this.visuals = {
 		0:function(){
